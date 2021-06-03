@@ -1,50 +1,24 @@
-# MT-Rose-Bot-Model
-Telegram BoT 
+# MRK YT
 
-## Dev Details 👤:
-
-<p align="middle">
 <img src="https://telegra.ph/file/9e831d15da94deb56ef4c.jpg" width="150" height="150"><br>
-<img src="https://badgen.net/badge/Nᴀᴍᴇ/Mʀᴋ-YT/FF33FF?icon=awesome&labelColor=0080FF"></a>
-<img src="https://badgen.net/badge/Sᴋɪʟʟs/😞/purple?icon=terminal&labelColor=red"></a>
-<a href="https://telegram.dog/MRK_yt"><img src="https://img.shields.io/badge/Tᴇʟᴇɢʀᴀᴍ-Lɪɴᴋ-blue.svg?logo=telegram"></a>
-<a href="https://github.com/MRK-YT"><img src="https://badgen.net/badge/Fᴏʟʟᴏᴡ%20Oɴ%20/Gɪᴛʜᴜʙ/80FF00?icon=github&labelColor=black"></a>
-<a href="https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ"><img src="https://img.shields.io/badge/Yᴏᴜᴛᴜʙᴇ-Cʜᴀɴɴᴇʟ-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<a href="https://Instagram.com/mrk_yt_"><img src="https://badgen.net/badge/Fᴏʟʟᴏᴡ%20Oɴ%20/Iɴsᴛᴀɢʀᴀᴍ/80FF00?icon=Instagram&labelColor=black"></a>
-<p align="left">
-</p>                                                           
-                                                    
-[![Open Source? Yes!](https://badgen.net/badge/Oᴘᴇɴ%20Sᴏᴜʀᴄᴇ%20%3F/Yᴇs/yellow?icon=github)](https://github.com/MRK-YT/MT-FilesStoreBot)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Asᴋ%20Mᴇ-Aɴʏᴛʜɪɴɢ-1abc9c.svg)](https://telegram.dog/Mrk_Yt)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Rᴇᴘᴏʀᴛ%20/Bᴜɢs/red)](https://telegram.dog/mrk_yt)
-[![Join Channel !](https://badgen.net/badge/🔊%20Jᴏɪɴ%20/Cʜᴀɴɴᴇʟ/Black)](https://telegram.dog/mo_Tech_yt)
-
-<p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
-  </a>
-<p align="center">
-  <a href="https://github.com/MRK-YT/MT-Rose-Bot-Model/stargazers">
-    <img src="https://img.shields.io/github/stars/MRK-YT/MT-Rose-Bot-Model?style=social">
-
-  </a>
-  
-  <a href="https://github.com/MRK-YT/MT-Rose-Bot-Model/fork">
-    <img src="https://img.shields.io/github/forks/MRK-YT/MT-Rose-Bot-Model?label=Fork&style=social">
-
-  </a>  
-</p>
 
 
+```
+from tg_bot.sample_config import Config
 
 
+class Development(Config):
+    OWNER_ID = 254318997  # my telegram ID
+    OWNER_USERNAME = "MRK_YT"  # my telegram username
+    API_KEY = "your bot api key"  # my api key, as provided by the botfather
+    SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'(false) # sample db credentials
+    MESSAGE_DUMP = '-1234567890'-(add -100)- # some group chat that your bot is a member of
+    USE_MESSAGE_DUMP = True
+    MO_TECH_YT = [subscribers] Subscribers Now # @Mrk_Yt@Mo_Tech_Group@Mo_Tech_YT#Support
+    SUDO_USERS = [18673980, 83489514]  # List of id's for users which have sudo access to the bot.
+    LOAD = [12345678910]
+    NO_LOAD = ['translation'] # translation stop
+```
 
 
-
-
-
-
-### Deploy
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/MT-Rose-Bot-Model)
 
